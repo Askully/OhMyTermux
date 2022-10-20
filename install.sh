@@ -3,7 +3,7 @@ termux-setup-storage
 
 pkg upgrade -y
 pkg install -y git zsh
-git clone https://github.com/Aareon/OhMyTermux.git "$HOME/OhMyTermux" --depth 1
+git clone https://github.com/Askully/OhMyTermux.git "$HOME/OhMyTermux" --depth 1
 
 mkdir "$HOME/.termux"
 mv "$HOME/.termux" "$HOME/.termux.bak.$(date +%Y.%m.%d-%H:%M:%S)"
